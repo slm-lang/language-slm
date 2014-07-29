@@ -175,7 +175,7 @@
       }
     ]
   'embedded-ruby':
-    'begin': '(?<!\\\\)${'
+    'begin': '(?<!\\\\)\\${'
     'end': '}'
     'name': 'source.js.embedded.html'
     'patterns': [
@@ -260,7 +260,7 @@
   'rubyline':
     'begin': '==\.|=\.|==|=|-'
     'contentName': 'source.js.embedded.slm'
-    'end': '((do|\\{)( \\|[^|]+\\|)?)$|[^\\\\,]$'
+    'end': '$'
     'endCaptures':
       '1':
         'name': 'source.js.embedded.html'
